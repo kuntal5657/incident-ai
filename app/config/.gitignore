@@ -1,0 +1,104 @@
+############################################
+# Python
+############################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.dist-info/
+
+############################################
+# Virtual Environments
+############################################
+venv/
+.env/
+.env.*
+!.env.example
+
+############################################
+# OS / Editor junk
+############################################
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+############################################
+# Logs & Runtime Artifacts
+############################################
+logs/
+*.log
+
+############################################
+# Caches / Temporary Files
+############################################
+.cache/
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+coverage/
+htmlcov/
+
+############################################
+# Jupyter / Experiments
+############################################
+.ipynb_checkpoints/
+notebooks/
+experiments/
+
+############################################
+# GenAI / ML Artifacts
+############################################
+embeddings/
+vector_store/
+faiss_index/
+*.bin
+*.pt
+*.ckpt
+
+############################################
+# Async / Job State
+############################################
+jobs/
+dlq/
+queue_state/
+
+############################################
+# Build / Distribution
+############################################
+build/
+dist/
+*.whl
+
+############################################
+# Secrets & Credentials
+############################################
+*.pem
+*.key
+*.crt
+*.secret
+secrets/
+credentials/
+
+############################################
+# Local Overrides
+############################################
+config.local.yaml
+settings.local.py
+
+
+embeddings/
+vector_store/
+faiss_index/
+
+jobs/
+dlq/
+queue_state/
+
+notebooks/
+experiments/
